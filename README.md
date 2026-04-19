@@ -73,49 +73,46 @@ The Close Price is the value predicted by the models.
 
 ## Models Used in This Project
 🔹 Classical Machine Learning Models (2)
+
 1️⃣ Linear Regression
-
 Used to find relationships between stock prices.
-
 Fast and simple model
 Good baseline model
 Strong performance on structured data
+
 2️⃣ Random Forest Regressor
-
 Uses multiple decision trees for prediction.
-
 Handles non-linear relationships
 Reduces overfitting
 Good for tabular data
 🔹 Deep Learning Models (5)
+
 3️⃣ Simple RNN
 
 Learns patterns from previous stock prices.
 
 4️⃣ LSTM (Long Short-Term Memory)
-
 Special neural network designed for time-series data.
-
 Remembers long-term trends
 Highly effective for stock prediction
-5️⃣ CNN (Convolutional Neural Network)
 
+5️⃣ CNN (Convolutional Neural Network)
 Used to detect short-term local patterns in stock movement.
 
 6️⃣ GRU (Gated Recurrent Unit)
-
 A faster and lighter version of LSTM.
 
 7️⃣ Attention-Based LSTM
-
 Advanced LSTM model that focuses on important previous data points for better prediction.
 
 ## ⚙️ Methodology
+
 Step 1️⃣ Data Preprocessing
 Cleaned dataset
 Removed missing values
 Converted columns into usable format
 Selected important features
+
 Step 2️⃣ Data Splitting
 
 Dataset divided into:
@@ -125,6 +122,7 @@ Dataset divided into:
 
 Training data was used to train the models and testing data was used for evaluation.
 
+
 Step 3️⃣ Feature Scaling
 
 Used MinMaxScaler to normalize data between 0 and 1.
@@ -133,6 +131,7 @@ Benefits:
 
 Faster model training
 Better neural network performance
+
 Step 4️⃣ Sequence Creation (Deep Learning Models)
 
 Previous stock prices were used to predict future price.
@@ -140,6 +139,7 @@ Previous stock prices were used to predict future price.
 Example:
 
 Last 10 Days Prices → Predict Next Day Closing Price
+
 Step 5️⃣ Model Training
 
 All 7 models were trained and tested on the same dataset for fair comparison.
