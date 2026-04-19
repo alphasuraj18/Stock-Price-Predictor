@@ -44,6 +44,8 @@ Stock-Price-Predictor/
 │── requirements.txt       # Dependencies
 │── README.md              # Project Documentation
 
+---
+
 ## 🎯 Project Objective
 
 The main goal of this project was to predict stock closing prices using past market data and compare different machine learning and deep learning models to see which one performs best.
@@ -63,7 +65,7 @@ Close Price
 
 The Close Price was the target value that I wanted to predict.
 
-## Models Used in This Project
+Models Used in This Project
 🔹 Classical Machine Learning Models (2)
 1. Linear Regression
 
@@ -154,7 +156,6 @@ Pull requests are welcome. For major changes, open an issue first to discuss imp
 📜 License
 
 This project is open-source and available under the MIT License.
-
 👨‍💻 Author
 
 Suraj Kumar
