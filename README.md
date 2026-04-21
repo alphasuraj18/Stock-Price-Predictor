@@ -107,13 +107,13 @@ Advanced LSTM model that focuses on important previous data points for better pr
 
 ## ⚙️ Methodology
 
-Step 1️⃣ Data Preprocessing
+1️⃣ Data Preprocessing
 Cleaned dataset
 Removed missing values
 Converted columns into usable format
 Selected important features
 
-Step 2️⃣ Data Splitting
+2️⃣ Data Splitting
 
 Dataset divided into:
 
@@ -123,7 +123,7 @@ Dataset divided into:
 Training data was used to train the models and testing data was used for evaluation.
 
 
-Step 3️⃣ Feature Scaling
+3️⃣ Feature Scaling
 
 Used MinMaxScaler to normalize data between 0 and 1.
 
@@ -132,7 +132,7 @@ Benefits:
 Faster model training
 Better neural network performance
 
-Step 4️⃣ Sequence Creation (Deep Learning Models)
+4️⃣ Sequence Creation (Deep Learning Models)
 
 Previous stock prices were used to predict future price.
 
@@ -140,7 +140,7 @@ Example:
 
 Last 10 Days Prices → Predict Next Day Closing Price
 
-Step 5️⃣ Model Training
+5️⃣ Model Training
 
 All 7 models were trained and tested on the same dataset for fair comparison.
 
